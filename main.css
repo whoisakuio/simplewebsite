@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:300,400);
+
+body 
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+h1 
+{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: Dosis;
+    top: 44%;
+    left: 42.16%;
+    letter-spacing: 5px;
+}
+
+h2 
+{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: Dosis;
+    font-size: 18px;
+    top: 48%;
+    left: 43.99%;
+    letter-spacing: 3px;
+}
+
+h3 
+{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: Dosis;
+    font-size: 20px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    letter-spacing: 3px;
+}
+
+h3:hover 
+{
+   color: transparent;
+   text-shadow: 0 0 2px rgba(190, 144, 212,1);
+}
+
+.apply 
+{
+    position: absolute;
+    top: 55.5%;
+    left: 44.2%;
+}
+
+.discord 
+{
+    position: absolute;
+    top: 55.5%;
+    left: 49.25%;
+}
+
+.fade-in 
+{
+    animation: fadeIn 16s;
+}
+
+@keyframes fadeIn 
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+
+.container
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url('files/background.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
